@@ -6,4 +6,4 @@ include "Calendar.php";
    $calendar =new Calender();
    $result = $calendar->showDay($month,$day);
   
-?> <h1><?php echo $result ?></h1>
+?> <h1 id="date"><?php echo $result ?></h1>
